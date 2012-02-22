@@ -11,9 +11,11 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj R-tcltk R-tcltk2 R-EBImage R-png 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj R-tcltk R-tcltk2 R-EBImage R-png 
+Requires:         R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj
+Requires:         R-tcltk R-tcltk2 R-EBImage R-png 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj
+BuildRequires:    R-tcltk R-tcltk2 R-EBImage R-png
 
 %description
 This package is a set of demonstration functions that can be used in a
