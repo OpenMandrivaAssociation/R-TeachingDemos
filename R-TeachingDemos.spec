@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.7
-Release:          1
+Release:          2
 Summary:          Demonstrations for teaching and learning
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
