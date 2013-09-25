@@ -2,20 +2,18 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.7
-Release:          2
+Version:          2.9
+Release:          1
 Summary:          Demonstrations for teaching and learning
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/TeachingDemos_2.9.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj
-Requires:         R-tcltk R-tcltk2 R-EBImage R-png 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj
-BuildRequires:    R-tcltk R-tcltk2 R-EBImage R-png
+Requires:         R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj R-tcltk R-tcltk2 R-EBImage R-png 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-tkrplot R-lattice R-MASS R-rgl R-sgeostat R-mapproj R-tcltk R-tcltk2 R-EBImage R-png 
 
 %description
 This package is a set of demonstration functions that can be used in a
