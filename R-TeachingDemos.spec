@@ -7,7 +7,7 @@ Release:          1
 Summary:          Demonstrations for teaching and learning
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/TeachingDemos_2.9.tar.gz
 BuildArch:        noarch
 Requires:         R-core
